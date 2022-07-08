@@ -15,11 +15,9 @@ _putchar('\n');
 else
 {
 for (num_lines = 1; num_lines <= n; num_lines++)
-{	
+{
 _putchar('_');
 }
 _putchar('\n');
 }
 }
-
-
