@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
 * print_number - print an int numbers.
-* @n: number tested
+*  @n: number tested
 * Return: Always 0.
 */
 void print_number(int n)
@@ -29,7 +30,8 @@ power = 1;
 i = 1;
 while (i < digits)
 {
-power = power * 10; i++;
+power = power * 10;
+i++;
 }
 j = power;
 while (j >= 1)
@@ -39,4 +41,3 @@ _putchar(numchar + '0');
 j = j / 10;
 }
 }
-
