@@ -9,7 +9,7 @@ int main(void)
 {
 int n;
 n = 98;
-*p = &n;
+p = &n;
 printf("n=%p\n", n);
 reset_to_98(&n);
 printf("n=%p\n", n);
