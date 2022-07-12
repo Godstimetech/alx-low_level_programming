@@ -8,8 +8,10 @@
 int main(void)
 {
 int n;
-n = 98;printf("n=%d\n", n);
+n = 98;
+*p = &n;
+printf("n=%p\n", n);
 reset_to_98(&n);
-printf("n=%d\n", n);
+printf("n=%p\n", n);
 return (0);
 }
