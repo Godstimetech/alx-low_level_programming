@@ -1,14 +1,16 @@
 #include "main.h"
 /**
- * _puts_recursion ->this is a function that print string recursively
- * @s:this is the input string
- */
+* _puts_recursion -> this is a function to print string recursivly
+* @s: string paramenter
+*/
 void _puts_recursion(char *s)
 {
-int y = 0;
-for (y = 0; s[y] != '\0'; y++)
+if (*s == '\0')
 {
-_putchar(s[y]);
-}
 _putchar('\n');
+return;
+}
+_putchar(*s);
+s++;
+_puts_recursion(s);
 }
