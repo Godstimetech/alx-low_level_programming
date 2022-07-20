@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Write a function that prints a string, followed by a new line.
+ * _puts_recursion ->this is a function that print string recursively
  * @s:this is the input string
  */
 void _puts_recursion(char *s)
