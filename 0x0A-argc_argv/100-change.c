@@ -13,7 +13,7 @@ int coins[] = {25, 10, 5, 2, 1};
 if (argc != 2)
 {
 printf("%s\n", "Error");
-turn (1);
+return (1);
 }
 num = atoi(argv[1]);
 if (num < 0)
