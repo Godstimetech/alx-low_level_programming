@@ -2,14 +2,14 @@
 #include <stdlib.h> /* atoi */
 #include "3-calc.h"
 /**
- * main - when user runs main,
- * user should give two integers and an operator and
- * main will calculate the math via a function pointer.
- * prints sum, difference, product, dividend, or remainder
- * @argc: argument counter
- * @argv: arguments
- * Return: 0 on sucess
- */
+* main - when user runs main,
+* user should give two integers and an operator and
+* main will calculate the math via a function pointer.
+* prints sum, difference, product, dividend, or remainder
+* @argc: argument counter
+* @argv: arguments
+* Return: 0 on sucess
+*/
 int main(int argc, char *argv[])
 {
 int n1, n2;
