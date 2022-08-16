@@ -36,17 +36,9 @@ if (tmp == NULL) /* account for idx out of range */
 free(new_node);
 return (NULL);
 }
-
-																				}
-
-
-
-											/* link into list */
-
-											new_node->next = tmp->next;
-
-												tmp->next = new_node;
-
-													return (new_node);
-
+}
+/* link into list */
+new_node->next = tmp->next;
+tmp->next = new_node;
+return (new_node);
 }
