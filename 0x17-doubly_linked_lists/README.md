@@ -18,11 +18,10 @@
 8. deletes the node at index
 
 ### Environment
-* Language: C89
-* OS: Ubuntu 14.04 LTS
+* Language: C
+* OS: Ubuntu 20.04 LTS
 * Compiler: gcc 4.8.4
 * Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
 ---
 ### Authors
-Melissa Ng [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MelissaNg__)
-
+Godstime Barida
